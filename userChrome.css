@@ -1,0 +1,30 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/*
+    How to debug style:
+    Ctrl+Alt+Shift+I -> ... in top right -> Disable popup auto hide
+    font-weight = 500 is Medium font
+    
+    #main-window.add_attribute(font-size: 15px)
+*/
+
+/* It's now auto use system font */
+
+#main-window > *,
+.autocomplete-richlistitem,
+#nav-bar-customization-target > *,
+label:not(.toolbarbutton-badge)
+{
+    font-family: "SF Pro Display" !important;
+    font-weight: 500 !important;
+}
+
+.toolbarbutton-badge {
+    font-family: "SF Pro Display" !important;
+    font-weight: 500 !important;
+}
+
+#urlbar {
+    border-radius: 15px !important;
+}
+

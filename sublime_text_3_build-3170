@@ -1,0 +1,8 @@
+
+Patch Sublime Text 3 (Build 3170):
+	printf '\x00\01' | sudo dd seek=$((0xD538)) conv=notrunc bs=1 of=/opt/sublime_text/sublime_text
+
+Note:
+	- Added attribute `i`(immutable) for `/opt/sublime_text/sublime_text` 
+
+# vim: set ts=4 sw=4 noexpandtab shofttabstop=0

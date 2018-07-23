@@ -1,0 +1,7 @@
+Context:
+    about:support/Profile Folder/Open Folder
+
+Actions:
+    Created directory "chrome"
+    Created file "userChrome.css"
+    Modified it.

@@ -1,0 +1,10 @@
+
+Fix fucking weird box while typing Vietnamese on fcitx:
+	Path : ~/.config/fcitx/profile
+	Entry: PreeditStringInClientWindow=True
+
+Changed:
+	Attribute `i' (aka 'immutable') is added because fcitx auto
+	change the value to False, so the weird box is always appeared.
+
+# vim: set ss=4 softtabstop=0 sw=4 noexpandtab

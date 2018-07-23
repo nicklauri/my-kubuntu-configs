@@ -1,0 +1,4 @@
+# Holded packages
+# : sudo apt-mark hold <package>
+
+metasploit-framework

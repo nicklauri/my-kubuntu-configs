@@ -1,0 +1,35 @@
+sudo apt install i3
+sudo apt install compton
+sudo apt install libdbusmenu-glib libdbusmenu-gtk2 libdbusmenu-gtk3
+sudo apt install libdbusmenu-glib4 libdbusmenu-gtk4 libdbusmenu-gtk3-4 
+sudo apt install compton
+sudo apt install i3
+sudo apt install --reinstall firefox
+sudo apt install feh
+sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf libxcb-xrm0 libxcb-xrm-dev automake
+sudo apt install dunst
+sudo apt install i3status i3lock
+sudo apt install rxvt-unicode
+sudo apt install i3blocks
+sudo apt install libgtk2.0-dev 
+sudo apt install libkf5guiaddons-dev libkf5i18n-dev libkf5configwidgets-dev libkf5config-bin-dev libkf5archive-dev libkf5kio-dev libkf5style-dev libkf5kdelibs4support-dev
+sudo apt install libkf5iconthemes-dev libkf5widgetsaddons-dev libkf5windowsystem-dev libkf5xmlgui-dev 
+sudo apt install xcb
+sudo apt install libx11-xcb1 libx11-xcb-dev 
+sudo apt install apt-file
+#sudo apt install libqt5core5a qtbase5-dev
+sudo apt install libqt5core5a qtbase5-dev
+sudo apt install libqt4-dev libqt4-dev-bin libqt4-svg libqt5svg5-dev
+sudo apt install libqt5x11extras5-dev
+sudo apt install extra-cmake-modules
+sudo apt install qtbase5-private-dev
+sudo apt install qtcurve
+grep 'apt install' ~/.bash_history 
+grep 'apt install' ~/.bash_history > ~/Configurations/apt_installed_qtcurve_build
+sudo apt install kdelibs5-dev
+sudo apt install automoc 
+sudo apt install libkf5kdelibs4support-dev: kdelibs5-dev
+sudo apt install libkf5kdelibs4support-dev kdelibs5-dev
+sudo apt install qtcurve
+sudo apt install qtcurve-l10n 
+sudo apt install qtcurve*

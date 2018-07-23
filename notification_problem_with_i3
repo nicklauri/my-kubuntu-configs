@@ -1,0 +1,10 @@
+
+Problem:
+    $ sudo apt install i3
+    -- i3 was automatically install dunst, dunst replace current notification daemon (knotify4, kdialog)
+
+Solution:
+    -- Remove dunst (flag: --purge)
+    $ sudo apt remove --purge dunst
+
+
